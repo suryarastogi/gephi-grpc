@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+    gephi-grpc:
+        build: .
+        ports:
+            - "8080:8080"
+
